@@ -620,14 +620,6 @@ def bd():
 		print(' [1] Method 1\n [2] Method 2 ')
 		linex()
 		mthd = input(' Choose: ')
-		linex()
-		print(' Do you went show cp account? (y/n): ')
-		linex()
-		cx=input(' Choose: ')
-		if cx in ['y','Y','yes','Yes','1']:
-			pcp.append('y')
-		else:
-			pcp.append('n')
 		for nmbr in range(limit):
 			nmp = ''.join(random.choice(string.digits) for _ in range(8))
 			user.append(nmp)
