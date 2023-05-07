@@ -116,7 +116,7 @@ logo=("""\033[1;32m
 \033[1;93m--------------------------------------------------
   \033[1;32mF4C3B00K  : Raziqullah Saadat
   \033[1;32mY0UTUB3   : @Saadat
-  \033[1;32mV3RS10N   : 0.4
+  \033[1;32mV3RS10N   : 0.5
   \033[1;32m0WN3R     : Raziqullah Saadat
 --------------------------------------------------
 \033[1;37m[-]Dear Paid user:
@@ -529,7 +529,7 @@ def menu():
 		public()
 	elif xd in ['4','04']:
 		clear()
-		print(' [1] Afghanistan cloning\n [2] AFG Random cloning\n [3] gmail cloning\n [0] Back menu')
+		print(' [1] Afghanistan cloning\n [2] Random cloning\n [3] gmail cloning\n [0] Back menu')
 		linex()
 		x=input(' Choose: ')
 		if x in ['1','01']:
@@ -567,7 +567,7 @@ def pak():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [1] Method 1\Best [2] Method 2 Best ')
+		print(' [1] Method 1\n [2] Method 2 Best ')
 		linex()
 		mthd = input(' Choose: ')
 		linex()
@@ -876,7 +876,7 @@ def rcrack(ids,passlist):
 				if uid in oks:pass
 				else:
 					if 'checkpoint' in str(lo):
-						print('\r\r\033[1;34m [AFAQ-TL] '+ids+' | '+pas)
+						print('\r\r\033[1;34m [Saadat-OK] '+ids+' | '+pas)
 					else:
 						print(f'\r\x1b[1;32m [Saadat-OK] '+ids+' | '+pas)
 						cek_apk(session,coki)
@@ -921,7 +921,7 @@ def menu_apikey():
 \033[1;37m[-] GITHUB    :\033[1;32m Raziq
 \033[1;37m[-] WhatsApp  :\033[1;32m +93702856593
 \033[1;37m[-] TOOLS     :\033[1;32m MIX CLONING
-\033[1;37m[-] VERSION   :\033[1;32m 0.4
+\033[1;37m[-] VERSION   :\033[1;32m 0.5
 \033[1;37m[-] STATUS    :\033[1;32m FREE
 ==================================================
 \033[1;33m[*]TOOLS  : Facebook cloning
