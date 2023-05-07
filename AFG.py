@@ -116,7 +116,7 @@ logo=("""\033[1;32m
 \033[1;93m--------------------------------------------------
   \033[1;32mF4C3B00K  : Raziqullah Saadat
   \033[1;32mY0UTUB3   : @Saadat
-  \033[1;32mV3RS10N   : 0.3
+  \033[1;32mV3RS10N   : 0.4
   \033[1;32m0WN3R     : Raziqullah Saadat
 --------------------------------------------------
 \033[1;37m[-]Dear Paid user:
@@ -571,13 +571,9 @@ def pak():
 		linex()
 		mthd = input(' Choose: ')
 		linex()
-		print(' Do you went show cp account? (y/n): ')
+		print(' [1] Clone with 7+11 digit pass (v-fast)\n [2] Clone with auto pass (fast)\n [3] Clone with auto pass v2 (slow-best) ')
 		linex()
-		cx=input(' Choose: ')
-		if cx in ['y','Y','yes','Yes','1']:
-			pcp.append('y')
-		else:
-			pcp.append('n')
+		pcs = input(' [?] Select: ')
 		for nmbr in range(limit):
 			nmp = ''.join(random.choice(string.digits) for _ in range(7))
 			user.append(nmp)
@@ -620,14 +616,6 @@ def bd():
 		print(' [1] Method 1\n [2] Method 2 ')
 		linex()
 		mthd = input(' Choose: ')
-		linex()
-		print(' Do you went show cp account? (y/n): ')
-		linex()
-		cx=input(' Choose: ')
-		if cx in ['y','Y','yes','Yes','1']:
-			pcp.append('y')
-		else:
-			pcp.append('n')
 		for nmbr in range(limit):
 			nmp = ''.join(random.choice(string.digits) for _ in range(8))
 			user.append(nmp)
@@ -933,7 +921,7 @@ def menu_apikey():
 \033[1;37m[-] GITHUB    :\033[1;32m Raziq
 \033[1;37m[-] WhatsApp  :\033[1;32m +93702856593
 \033[1;37m[-] TOOLS     :\033[1;32m MIX CLONING
-\033[1;37m[-] VERSION   :\033[1;32m 0.3
+\033[1;37m[-] VERSION   :\033[1;32m 0.4
 \033[1;37m[-] STATUS    :\033[1;32m FREE
 ==================================================
 \033[1;33m[*]TOOLS  : Facebook cloning
