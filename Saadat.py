@@ -529,7 +529,7 @@ def menu():
 		public()
 	elif xd in ['4','04']:
 		clear()
-		print(' [1] Afghanistan cloning\n [2] AFG Random cloning\n [3] gmail cloning\n [0] Back menu')
+		print(' [1] Afghanistan cloning\n [2] Random cloning\n [3] gmail cloning\n [0] Back menu')
 		linex()
 		x=input(' Choose: ')
 		if x in ['1','01']:
@@ -567,7 +567,7 @@ def pak():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [1] Method 1\Best [2] Method 2 Best ')
+		print(' [1] Method 1\n [2] Method 2 Best ')
 		linex()
 		mthd = input(' Choose: ')
 		linex()
