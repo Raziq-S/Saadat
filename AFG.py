@@ -391,7 +391,7 @@ def manual_file(cookies,access_token):
     print(' Total ids grabbed: '+str(len(ids)))
     print(' Ids file saved in: '+sf)
     input(' \nPress enter to back ')
-    os.system('python AB KHANX.py')
+    os.system('python Raziq.py')
 def sids():
     os.system('clear')
     print(logo)
@@ -434,7 +434,7 @@ def remove_dub():
         print(' Result file saved as: '+save_file)
         print(50*'-')
         input('\n Press enter to back ')
-        os.system('python AB KHANX.py')
+        os.system('python Raziq.py')
     except FileNotFoundError:
         print(' File not found.')
 def login():
@@ -550,7 +550,7 @@ def menu():
 	elif xd in ['8','08']:
 		os.system('rm -rf fb_cookies.txt')
 	elif xd in ['9','09']:
-		os.system(f'xdg-open https://www.facebook.com/profile.php?id=100028315179402');menu()
+		os.system(f'xdg-open https://chat.whatsapp.com/IBITafA7ugtBTkRH760hj2');menu()
 			
 	elif xd in ['0','00']:
 		exit(' KHUDA HAFIZ ')
@@ -570,6 +570,14 @@ def pak():
 		print(' [1] Method 1\n [2] Method 2 Best ')
 		linex()
 		mthd = input(' Choose: ')
+		linex()
+		print(' Do you went show cp account? (y/n): ')
+		linex()
+		cx=input(' Choose: ')
+		if cx in ['y','Y','yes','Yes','1']:
+			pcp.append('y')
+		else:
+			pcp.append('n')
 		linex()
 		print(' [1] Clone with 7+11 digit pass (v-fast)\n [2] Clone with auto pass (fast)\n [3] Clone with auto pass v2 (slow-best) ')
 		linex()
@@ -616,6 +624,14 @@ def bd():
 		print(' [1] Method 1\n [2] Method 2 ')
 		linex()
 		mthd = input(' Choose: ')
+		linex()
+		print(' Do you went show cp account? (y/n): ')
+		linex()
+		cx=input(' Choose: ')
+		if cx in ['y','Y','yes','Yes','1']:
+			pcp.append('y')
+		else:
+			pcp.append('n')
 		for nmbr in range(limit):
 			nmp = ''.join(random.choice(string.digits) for _ in range(8))
 			user.append(nmp)
@@ -921,11 +937,11 @@ def menu_apikey():
 \033[1;37m[-] GITHUB    :\033[1;32m Raziq
 \033[1;37m[-] WhatsApp  :\033[1;32m +93702856593
 \033[1;37m[-] TOOLS     :\033[1;32m MIX CLONING
-\033[1;37m[-] VERSION   :\033[1;32m 0.2
+\033[1;37m[-] VERSION   :\033[1;32m 0.3
 \033[1;37m[-] STATUS    :\033[1;32m FREE
 ==================================================
 \033[1;33m[*]TOOLS  : Facebook cloning
-\033[1;37m[*]Status : PAID
+\033[1;37m[*]Status : FREE
 ==================================================
  \33[37;41m\t IF YOU ARE FREE USER DON'T INBOX\33[0;m
 \033[1;93m=================================================
