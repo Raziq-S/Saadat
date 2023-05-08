@@ -243,7 +243,7 @@ def public():
 				passlist = plist
 				if mthd in ['1','01']:
 					crack_submit.submit(ffb,ids,names,passlist)
-				elif mthd in ['4','04']:
+				elif mthd in ['2','02']:
 					crack_submit.submit(ffb,ids,names,passlist)
 				else:
 					crack_submit.submit(mmm,ids,names,passlist)
@@ -512,7 +512,7 @@ def menu():
 				passlist = plist
 				if mthd in ['1','01']:
 					crack_submit.submit(ffb,ids,names,passlist)
-				elif mthd in ['4','04']:
+				elif mthd in ['2','02']:
 					crack_submit.submit(mmm,ids,names,passlist)
 				else:
 					crack_submit.submit(api,ids,names,passlist)
@@ -523,18 +523,18 @@ def menu():
 		linex()
 		input(' Press enter to back ')
 		os.system('python Raziq.py')
-	elif xd in ['4','04']:
+	elif xd in ['2','02']:
 		create_file_login()
 	elif xd in ['3','03']:
 		public()
-	elif xd in ['2','02'']:
+	elif xd in ['4','04']:
 		clear()
 		print(' [1] Afghanistan cloning\n [2] Random cloning\n [3] gmail cloning\n [0] Back menu')
 		linex()
 		x=input(' Choose: ')
 		if x in ['1','01']:
 			pak()
-		elif x in ['4','04']:
+		elif x in ['2','02']:
 			bd()
 		elif x in ['3','03']:
 			gmail()
@@ -704,7 +704,7 @@ def gmail():
 				ls = last_name.lower()
 				if pxc in ['1','01']:
 					passlist = [fs+ls,fs+' '+ls,fs]
-				elif pxc in ['4','04']:
+				elif pxc in ['2','02']:
 					passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122']
 				elif pxc in ['3','03']:
 					passlist = [first_name+last_name,first_name+' '+last_name,first_name+'123']
@@ -943,9 +943,9 @@ def menu_apikey():
  \033[1;37m[2]you unstall termux and key need approval
 ================================================== 
  [*] File cloning
- [*] Random cloning
- [*] Public cloning
  [*] Create file
+ [*] Public cloning
+ [*] Random cloning
  [*] Gmail cloning
  [*] Separate ids
  [*] remove dublicate lines from file              [8] login another cookie
