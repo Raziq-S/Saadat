@@ -567,10 +567,13 @@ def pak():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [2] Method 2 Best ')
+		print(' [1] Method 1 Best ')
 		linex()
 		mthd = input(' Choose: ')
 		linex()
+		print(' [1] Clone with 7+11 digit pass (v-fast)\n [2] Clone with auto pass (fast)\n [3] Clone with auto pass v2 (slow-best) ')
+		linex()
+		pcs = input(' [?] Select: ')
 		for nmbr in range(limit):
 			nmp = ''.join(random.choice(string.digits) for _ in range(7))
 			user.append(nmp)
@@ -610,7 +613,7 @@ def bd():
 		except ValueError:
 			limit = 5000
 		linex()
-		print('[2] Method 2 best ')
+		print('[1] Method 1 best ')
 		linex()
 		mthd = input(' Choose: ')
 		for nmbr in range(limit):
