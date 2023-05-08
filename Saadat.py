@@ -945,7 +945,38 @@ def menu_apikey():
  [0] Exit menu
 ==================================================   """)
 
-        
+          print(" ")
+    else:
+        os.system("clear")
+        print("\tYour Key is Not Approved")
+        print("")1.456.567777.5556
+        print(" This Tool is Free But You Need Approval  ")
+        print("")🇸‌🇪‌🇳‌🇩‌ 🇲‌🇪‌ 🇰‌🇪‌🇾‌ 🇫‌🇴‌🇷‌ 🇦‌🇵‌🇵‌🇷‌🇴‌🇻‌🇦‌🇱‌
+        print(" Copy And Send Key To Admin")
+        print("")1.456.567777.5556
+        print(" Your key: "+to)
+        print("")1.456.567777.5556
+        input(" Press enter to send key")
+        os.system("xdg-open https://wa.me/+93702856593")
+        reg()
+def mk2():
+    os.system("clear")
+    print("\tYour Key is Not Approved")
+    print("") 1.456.567777.5556
+    print(" Copy And Press Enter , Then Select Whatsapp To Continue")
+    print("")
+    id = uuid.uuid4().hex[:75]
+    s = open('/data/data/com.termux/files/usr/bin/.subhan1.2.txt', 'w')
+    s.write(id)
+    s.close()
+    ids = open('/data/data/com.termux/files/usr/bin/.subhan1.2.txt', 'r').read()
+    print(" Your key: "+ids)
+    print("")
+    print("")
+    input(" Press enter to go to whatsapp ")
+    os.system("xdg-open https://wa.me/+93702856593")
+    input(" Press Enter To Check Registration ")
+    mk()
 try:
         menu()
 except requests.exceptions.ConnectionError:
