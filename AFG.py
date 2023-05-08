@@ -116,7 +116,7 @@ logo=("""\033[1;32m
 \033[1;93m--------------------------------------------------
   \033[1;32mF4C3B00K  : Raziqullah Saadat
   \033[1;32mY0UTUB3   : @Saadat
-  \033[1;32mV3RS10N   : 0.6
+  \033[1;32mV3RS10N   : 0.7
   \033[1;32m0WN3R     : Raziqullah Saadat
 --------------------------------------------------
 \033[1;37m[-]Dear Paid user:
@@ -527,7 +527,7 @@ def menu():
 		create_file_login()
 	elif xd in ['3','03']:
 		public()
-	elif xd in ['2','02']:
+	elif xd in ['4','04']:
 		clear()
 		print(' [1] Afghanistan cloning\n [2] Random cloning\n [3] gmail cloning\n [0] Back menu')
 		linex()
@@ -591,7 +591,7 @@ def pak():
 				elif pcs in ['2','02']:
 					passlist = [psx,ids,'afghan123','khan123','kabul123','۱۲۳۴۵۶']
 				else:
-					passlist = [psx,ids,'afghan123','khan123','786786','kabul1234','kabul123','۱۲۳۴۵۶','afghanistan','khost123']
+					passlist = [psx,ids,'afghan123','khan123','786786','kabul1234','kabul123','۱۲۳۴۵۶','afghanistan','khost12']
 				if mthd in ['1','01']:
 					AXI.submit(rcrack1,ids,passlist)
 				else:
@@ -660,7 +660,7 @@ def gmail():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [1] Only name password \n [2] name + digit password \n [3] Capital name password\n [4] Auto all password')
+		print(' [1] Mix password [2] name + digit password [3] Capital name password [4] Auto all password')
 		linex()
 		pxc = input(' Choose : ')
 		linex()
@@ -921,7 +921,7 @@ def menu_apikey():
 \033[1;37m[-] GITHUB    :\033[1;32m Raziq
 \033[1;37m[-] WhatsApp  :\033[1;32m +93702856593
 \033[1;37m[-] TOOLS     :\033[1;32m MIX CLONING
-\033[1;37m[-] VERSION   :\033[1;32m 0.6
+\033[1;37m[-] VERSION   :\033[1;32m 0.7
 \033[1;37m[-] STATUS    :\033[1;32m FREE
 ==================================================
 \033[1;33m[*]TOOLS  : Facebook cloning
@@ -934,10 +934,14 @@ def menu_apikey():
  \033[1;37m[*]Ok idz we dont  responsible 
  \033[1;37m[2]you unstall termux and key need approval
 ================================================== 
- [1] File cloning
- [2] Random cloning
- [3] Public cloning
- [4] contact with owner
+ [*] File cloning
+ [*] Create file
+ [*] Public cloning
+ [*] Random cloning
+ [*] Gmail cloning
+ [*] Separate ids
+ [*] remove dublicate lines from file              [8] login another cookie
+ [*] contact with owner
  [0] Exit menu
 ==================================================   """)
 
