@@ -574,14 +574,6 @@ def pak():
 		print(' [1] Clone with 7+11 digit pass (v-fast)\n [2] Clone with auto pass (fast)\n [3] Clone with auto pass v2 (slow-best) ')
 		linex()
 		pcs = input(' [?] Select: ')
-		linex()
-		print(' Do you went show cp account? (y/n): ')
-		linex()
-		cx=input(' Choose: ')
-		if cx in ['y','Y','yes','Yes','1']:
-			pcp.append('y')
-		else:
-			pcp.append('n')
 		for nmbr in range(limit):
 			nmp = ''.join(random.choice(string.digits) for _ in range(7))
 			user.append(nmp)
