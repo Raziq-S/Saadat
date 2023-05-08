@@ -934,14 +934,10 @@ def menu_apikey():
  \033[1;37m[*]Ok idz we dont  responsible 
  \033[1;37m[2]you unstall termux and key need approval
 ================================================== 
- [*] File cloning
- [*] Random cloning
- [*] Public cloning
- [*] Create file
- [*] Gmail cloning
- [*] Separate ids
- [*] remove dublicate lines from file              [8] login another cookie
- [*] contact with owner
+ [1] File cloning
+ [2] Random cloning
+ [3] Public cloning
+ [4] contact with owner
  [0] Exit menu
 ==================================================   """)
 
